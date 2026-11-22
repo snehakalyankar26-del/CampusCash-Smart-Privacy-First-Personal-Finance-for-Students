@@ -3,6 +3,8 @@ export default {
   transform: {},
   moduleFileExtensions: ['js', 'json'],
   coverageDirectory: 'coverage',
+  testMatch: ['<rootDir>/tests/**/*.test.js'],
+  modulePathIgnorePatterns: ['<rootDir>/github/'],
   collectCoverageFrom: [
     'public/js/modules/**/*.js',
     'src/server/**/*.js',
